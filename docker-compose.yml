@@ -1,0 +1,17 @@
+version: '3.5'
+
+services:
+  app-dev:
+    image: spring-flyway-demo
+    environment:
+      STAND_NAME: dev
+
+  app-stage:
+    image: spring-flyway-demo
+    environment:
+      STAND_NAME: stage
+
+  app-prod:
+    image: spring-flyway-demo
+    environment:
+      STAND_NAME: prod

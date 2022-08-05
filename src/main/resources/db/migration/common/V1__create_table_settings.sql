@@ -1,0 +1,5 @@
+CREATE TABLE app_settings
+(
+    k VARCHAR NOT NULL PRIMARY KEY,
+    v VARCHAR NOT NULL
+);
